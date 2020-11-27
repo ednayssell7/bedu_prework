@@ -5,7 +5,7 @@ serie = pd.Series([4, 7, 6, 2, 1])
 
 print(serie)
 
-#get a specific element
+#get a specific element 
 
 print(serie.loc[2])
 
@@ -22,3 +22,6 @@ print(serie2)
 
 serie2.loc['c'] = 100
 print(serie2)
+
+#print only selected index
+print(serie2.loc[['a', 'b']])
