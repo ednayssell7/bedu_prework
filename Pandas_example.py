@@ -30,3 +30,7 @@ print(serie2.loc[['a', 'b']])
 
 serie3 = pd.Series([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 print(serie3.loc[5:])
+
+#adding a range
+
+print(serie3.loc[7:9])
