@@ -13,3 +13,12 @@ print(serie.loc[2])
 
 serie2 = pd.Series([1, 2, 3], index = [10, 11, 12])
 print(serie2)
+
+
+serie2 = pd.Series([1, 2, 3], index = ['a', 'b', 'c'])
+print(serie2)
+
+#adding a new value to an index
+
+serie2.loc['c'] = 100
+print(serie2)
