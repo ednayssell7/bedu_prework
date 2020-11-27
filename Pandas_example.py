@@ -25,3 +25,8 @@ print(serie2)
 
 #print only selected index
 print(serie2.loc[['a', 'b']])
+
+#using operator : 
+
+serie3 = pd.Series([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+print(serie3.loc[5:])
